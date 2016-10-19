@@ -24,12 +24,12 @@
       },
       "SlaveInstanceCount":{
          "Description":"Required: Specify the number of private agent nodes or accept the default.",
-         "Default":"5",
+         "Default":"2",
          "Type":"Number"
       },
       "PublicSlaveInstanceCount":{
          "Description":"Required: Specify the number of public agent nodes or accept the default.",
-         "Default":"1",
+         "Default":"2",
          "Type":"Number"
       }
    },
