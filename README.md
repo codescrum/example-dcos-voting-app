@@ -8,9 +8,10 @@ Run a simple voting app with docker containers on DC/OS through Marathon
 Getting started
 ---------------
 
-Set a cluster with DC/OS running. Home page at [DC/OS home page](https://dcos.io/)
+Set a cluster with DC/OS running. Home page at [DC/OS home page](https://dcos.io/).
+If you are using Amazon EC2 (container service) you can use the cloudformation included in the project.
 
-Through Marathon launch every JSON file app. The app will be running on port 8080 for voting and 8081 for results.
+Through Marathon launch every JSON file app. The app will be running on port 8080 for voting and 8081 for results. Or on ports 80 for voting and 8080 for results if you use the cloudformation. 
 
 
 Architecture
