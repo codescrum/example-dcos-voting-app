@@ -19,7 +19,6 @@
     },
     "portDefinitions": [
         { "port": 9090, "protocol": "tcp", "name": "stats" },
-        { "port": 8000, "protocol": "tcp", "name": "simpleserver" },
         { "port": 8080, "protocol": "tcp", "name": "votingapp" },
         { "port": 8081, "protocol": "tcp", "name": "resultapp" }
     ],
